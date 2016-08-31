@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LSU Football</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="button_coaches">COACHES</string>
+    <string name="button_offense">Offense</string>
+    <string name="button_defense">Defense</string>
+    <string name="button_specialteams">Special Teams</string>
 </resources>
