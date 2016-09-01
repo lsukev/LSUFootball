@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 import com.lsukev.lsufootball.R;
 
-public class RosterListActivity extends AppCompatActivity {
+public class RosterListActivity extends BaseActivity {
 
     private ListView listView;
 

@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.lsukev.lsufootball.R;
 
-public class BioActivity extends AppCompatActivity {
+public class BioActivity extends BaseActivity {
 
     private ImageView imageView;
     private TextView txtName;

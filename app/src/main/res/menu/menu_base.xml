@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/action_roster"
+        android:title="Rosters"/>
+    <item
+        android:id="@+id/action_schedule"
+        android:title="Schedule"/>
+    <item
+        android:id="@+id/action_socialmedia"
+        android:title="Social Media"/>
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_settings"
+            android:title="Settings"/>
+    </group>
+</menu>

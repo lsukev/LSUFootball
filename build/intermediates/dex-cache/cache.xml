@@ -2,137 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="C:\Users\lsuke\Desktop\AndroidDev\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_9a6aaf2d3d5f818aa479c342f1e506ed90788d82\classes.dex" />
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="C:\Users\lsuke\Desktop\AndroidDev\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.0_c9e502cf656c8012fe245a83cd36a1248b8af61c\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jar="C:\Users\lsuke\Desktop\AndroidDev\LSUFootball\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_df668161061cda1f2f3dbae54023c6909dde8774\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_8581b32d158f294ae59763c2d75e4d301f6a0451\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="07ec1bfb17fdb660a26f210ab124d7d916a60a80">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6128f69eae2277869f4ef9c7e2760ba462b3956a\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_70142a4db97f4dd8626b22c03f134fbd50b092ae\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3a565b0beaf246509c78f46863a4c481b839bebf\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_5dd94bb77b5940b2f745ccbf21133f7ca1e1bf9b\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_028e09d72b7304f41a07f512142ef89815222c6b\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_dda501736d9397ab6a2c80372379646593d3bf16\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_87e353c20f8149fb05efd38ce4bf9211b1285bdf\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_26b107483696dc4543b80e8d511026f96ff99f39\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_bed2b09646d48c083179bfcfd9531da374c92332\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_77a548d0876b557cd80105ba3487731fb229efe3\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_88d70aefdc98b42c31698c74e003a65b0d5d1f9f\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="33027837fc5d899ec77a775c2dbb2a7c23dec3c9">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c66a6a6e93bf95d2793627ccc229df66503ace41\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_b24f2c1ee983a4984a824c0cea437708878cd216\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_9e74794ec6d5f844f7ba1e71e91a0f28bf69d739\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_8382d8f95a8c64bba3df13a891fc0df0f0e6a59c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="C:\Users\Kevin\Desktop\Android Development\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_14549c13952942354b085c0c179c3f6ffd664248\classes.dex" />
+        sha1="9bebb2230da5c3c5a5f9f4e94b35a1cae3d07b39">
+        <dex dex="C:\Users\lsuke\Desktop\AndroidDev\LSUFootball\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_174c58c4a533f75eca9c6cd2f678889185ff0c30\classes.dex" />
     </item>
 
 </items>
