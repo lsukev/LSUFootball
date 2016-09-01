@@ -5,15 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.lsukev.lsufootball.R;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class RosterListActivity extends AppCompatActivity {
 
@@ -46,6 +40,30 @@ public class RosterListActivity extends AppCompatActivity {
         final String[] playerNum = new String[]{
                 "#2", "#4","#5","#6","#7","#8","#10"
         };
+        final String[] height = new String[]{
+                "6'6\""
+        };
+        final String[] weight = new String[]{
+                "211 lbs."
+        };
+        final String[] playerClass = new String[]{
+                "Freshman"
+        };
+        final String[] experience = new String[]{
+                "Redshirt"
+        };
+        final String[] city = new String[]{
+                "New Orleans, LA"
+        };
+        final String[] highSchool = new String[]{
+                "Jesuit HS"
+        };
+        final String[] major = new String[]{
+                "Finance"
+        };
+        final String[] born = new String[]{
+                "10/06/1996"
+        };
 
         CustomList adapter = new CustomList(this, playerName, imageId, playerPos, playerNum);
         listView.setAdapter(adapter);
@@ -59,6 +77,14 @@ public class RosterListActivity extends AppCompatActivity {
                 i.putExtra("imageId", imageId[position]);
                 i.putExtra("playerPos", playerPos[position]);
                 i.putExtra("playerNum", playerNum[position]);
+                i.putExtra("height", height[position]);
+                i.putExtra("weight", weight[position]);
+                i.putExtra("class", playerClass[position]);
+                i.putExtra("experience", experience[position]);
+                i.putExtra("city", city[position]);
+                i.putExtra("highSchool", highSchool[position]);
+                i.putExtra("major", major[position]);
+                i.putExtra("born", born[position]);
                 startActivity(i);
 //                Toast.makeText(RosterListActivity.this, "You clicked at " + playerName[+position] + " " + imageId[+position], Toast.LENGTH_SHORT).show();
             }

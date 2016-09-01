@@ -71,9 +71,11 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/yellowBarLayout"
-        android:paddingLeft="100dp">
+        android:paddingLeft="40dp"
+        android:id="@+id/tableLayout"
+        android:layout_marginTop="10dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -112,7 +114,8 @@
                 android:text="Height:"
                 android:id="@+id/textView"
                 android:layout_column="3"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -120,7 +123,28 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
                 android:id="@+id/txtHeight"
-                android:layout_column="4" />
+                android:layout_column="4"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="City / State:"
+                android:id="@+id/textView5"
+                android:layout_column="5"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:paddingLeft="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/txtCity"
+                android:layout_column="6"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
         </TableRow>
 
         <TableRow
@@ -132,7 +156,8 @@
                 android:text="Weight:"
                 android:id="@+id/textView2"
                 android:layout_column="3"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -140,7 +165,28 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
                 android:id="@+id/txtWeight"
-                android:layout_column="4" />
+                android:layout_column="4"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="High School:"
+                android:id="@+id/lblHighSchool"
+                android:layout_column="5"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:paddingLeft="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/txtHighSchool"
+                android:layout_column="6"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
         </TableRow>
 
         <TableRow
@@ -152,7 +198,8 @@
                 android:text="Class:"
                 android:id="@+id/textView3"
                 android:layout_column="3"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -160,7 +207,28 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
                 android:id="@+id/txtClass"
-                android:layout_column="4" />
+                android:layout_column="4"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Major:"
+                android:id="@+id/lblMajor"
+                android:layout_column="5"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:paddingLeft="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/txtMajor"
+                android:layout_column="6"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
 
         </TableRow>
 
@@ -173,7 +241,8 @@
                 android:text="Experience:"
                 android:id="@+id/textView4"
                 android:layout_column="3"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -181,48 +250,71 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
                 android:id="@+id/txtExperience"
-                android:layout_column="4" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                android:layout_column="4"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
 
             <TextView
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="City / State:"
-                android:id="@+id/textView5"
-                android:layout_column="3"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Medium Text"
-                android:id="@+id/txtCity"
-                android:layout_column="4" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="High School:"
-                android:id="@+id/textView6"
-                android:layout_column="3"
-                android:textColor="#000000" />
+                android:text="Born:"
+                android:id="@+id/lblBorn"
+                android:layout_column="5"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:paddingLeft="50dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
-                android:id="@+id/txtHighSchool"
-                android:layout_column="4" />
+                android:id="@+id/txtBorn"
+                android:layout_column="6"
+                android:textSize="12sp"
+                android:paddingLeft="2dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
         </TableRow>
     </TableLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:id="@+id/scrollView"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Widely considered one of the top players in college football for the second straight year heading into 2016 … In just two years at LSU, has already climbed to fourth-leading rusher in school history with 2,987 yards … Has played in 25 games with 18 starts … In 25 games, has rushed for at least 100 yards 15 times and has gone over the 200-yard mark four times … Tied for fourth in school history with 32 rushing TDs … Was the fastest player to 2,000 yards in school history and will become the fastest player in LSU history to 3,000 yards when he reaches that mark … Only player in LSU history to rush for 1,000 yards in each of his first two seasons … Became first player in the SEC to lead the nation in rushing since 1949 with an average of 162.8 yards per game in 2015 … Possesses great instincts, superior vision, breakaway speed, can turn on a dime, and is one of the toughest and strongest players on the team … Proven to be a workhorse out of the backfield by averaging 19.5 carries a contest … Versatile enough to also catch the ball out of the backfield, help in pass protection when needed, and has shown game-breaking ability in the kickoff return game."
+            android:id="@+id/txtBio"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+    </ScrollView>
 
 </RelativeLayout>

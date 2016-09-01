@@ -8,4 +8,10 @@
     <string name="button_offense">Offense</string>
     <string name="button_defense">Defense</string>
     <string name="button_specialteams">Special Teams</string>
+    <string name="title_activity_main_activity_drawer">MainActivityDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

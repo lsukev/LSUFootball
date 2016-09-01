@@ -22,7 +22,11 @@
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".activities.RosterSelectionActivity" />
         <activity android:name=".activities.RosterListActivity" />
-        <activity android:name=".activities.BioActivity"></activity>
+        <activity android:name=".activities.BioActivity" />
+        <activity
+            android:name=".activities.MainActivityDrawer"
+            android:label="@string/title_activity_main_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
