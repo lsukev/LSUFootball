@@ -1,52 +1,14 @@
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/card_view"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_margin_padding"
+    android:orientation="vertical"
+    tools:context=".activities.ScheduleActivity">
 
-    <RelativeLayout
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/schedule_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" />
 
-    </RelativeLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:maxLines="3"
-            android:padding="8dp"
-            android:text="Lambeau Field College Classic"
-            android:textColor="#666"
-            android:textSize="14dp"
-            android:id="@+id/txtDescription" />
-
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:maxLines="3"
-            android:padding="8dp"
-            android:text="Wisconsin"
-            android:textColor="#222"
-            android:textStyle="bold"
-            android:textSize="22dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:maxLines="3"
-            android:padding="8dp"
-            android:layout_below="@id/title"
-            android:text="LSU"
-            android:textColor="#222"
-            android:textStyle="bold"
-            android:textSize="22dp"
-            android:id="@+id/txtAway" />
-    </LinearLayout>
-
-</android.support.v7.widget.CardView>
+</LinearLayout>
