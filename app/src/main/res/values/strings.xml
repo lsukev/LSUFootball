@@ -9,9 +9,12 @@
     <string name="button_defense">Defense</string>
     <string name="button_specialteams">Special Teams</string>
     <string name="title_activity_main_activity_drawer">MainActivityDrawer</string>
-
+    <string name="button_title">Get Bananas</string>
+    <string name="ticker_count_label">Number of notifications\:</string>
+    <string name="long_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu aliquet sem. Mauris tincidunt posuere erat vel dignissim. Donec condimentum, ligula id lobortis congue, leo nunc suscipit dui, non molestie ligula risus et velit. Pellentesque consectetur, ante molestie dapibus tincidunt, ipsum ipsum pretium turpis, eget elementum nulla arcu sed leo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="notification_title">Bananas</string>
+    <string name="notification_subject">Get them while they\'re fresh!</string>
     <string name="action_settings">Settings</string>
 </resources>

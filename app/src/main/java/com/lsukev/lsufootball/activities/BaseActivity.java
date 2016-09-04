@@ -95,6 +95,12 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
             case R.id.action_schedule:
                 startActivity(new Intent(this, ScheduleActivity.class));
                 return true;
+            case R.id.action_rostercards:
+                startActivity(new Intent(this, RosterCardActivity.class));
+                return true;
+            case R.id.action_notification:
+                startActivity(new Intent(this, NotificationTestActivity.class));
+                return true;
         }
 
 

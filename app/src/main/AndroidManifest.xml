@@ -15,11 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.RosterSelectionActivity" />
         <activity android:name=".activities.RosterListActivity" />
         <activity android:name=".activities.BioActivity" />
         <activity android:name=".activities.BaseActivity" />
-        <activity android:name=".activities.ScheduleActivity"></activity>
+        <activity android:name=".activities.ScheduleActivity" />
+        <activity android:name=".activities.RosterCardActivity" />
+        <activity android:name=".activities.NotificationTestActivity" />
+        <activity android:name=".activities.TestActivity"></activity>
     </application>
 
 </manifest>

@@ -12,8 +12,12 @@
         android:id="@+id/action_schedule"
         android:title="Schedule"/>
     <item
-        android:id="@+id/action_socialmedia"
-        android:title="Social Media"/>
+        android:id="@+id/action_rostercards"
+        android:title="Roster Cards"/>
+        <item
+            android:id="@+id/action_notification"
+            android:title="Notification"
+            />
     </group>
 
     <group android:id="@+id/grp2" android:checkableBehavior="single">
