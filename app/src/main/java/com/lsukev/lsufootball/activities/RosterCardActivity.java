@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -35,6 +36,20 @@ public class RosterCardActivity extends BaseActivity {
         rv.setAdapter(new RosterListAdapter(new RosterProvider().readRosters()));
     }
 
+    @Override
+    protected boolean useDrawerToggle() {
+        return false;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        if (item.getItemId() == R.id.action_rostercards)
+            return true;
+        if (item.getItemId() == android.R.id.home)
+            onBackPressed();
+
+        return super.onOptionsItemSelected(item);
+    }
+
     class RosterListAdapter extends RecyclerView.Adapter<RosterViewHolder>{
         private final List<Roster> rosters;
         RosterListAdapter(List<Roster> rosters){
@@ -47,6 +62,7 @@ public class RosterCardActivity extends BaseActivity {
             return new RosterViewHolder(v);
 
         }
+
         @Override
         public void onBindViewHolder(RosterViewHolder rosterViewHolder, int i){
             rosterViewHolder.txtPlayerName.setText(rosters.get(i).getPlayerName());

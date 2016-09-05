@@ -21,7 +21,7 @@
         <activity android:name=".activities.ScheduleActivity" />
         <activity android:name=".activities.RosterCardActivity" />
         <activity android:name=".activities.NotificationTestActivity" />
-        <activity android:name=".activities.TestActivity"></activity>
+        <activity android:name=".activities.TestActivity" />
     </application>
 
 </manifest>

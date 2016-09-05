@@ -11,9 +11,6 @@
     <item
         android:id="@+id/action_schedule"
         android:title="Schedule"/>
-    <item
-        android:id="@+id/action_rostercards"
-        android:title="Roster Cards"/>
         <item
             android:id="@+id/action_notification"
             android:title="Notification"
